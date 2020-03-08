@@ -10,8 +10,14 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-color: #faf6fb;
+    color: gray;
 }
-.navbar-nav  li a:hover {
+.nav  li a {
+    color: gray;
+}
+
+.nav  li a:hover {
     color: #1abc9c !important;
 }
 
@@ -32,4 +38,12 @@
 	margin-top: 25px;
 	font-size: 12px;
   color: #fff;
+}
+
+.comp-label {
+    font-weight: bold;
+}
+
+.main-header {
+    padding-top: 30px;
 }
